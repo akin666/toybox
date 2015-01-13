@@ -53,6 +53,7 @@
 		E7A35D331A65D49300C9E3EF /* chunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7A35D231A65D49300C9E3EF /* chunk.cpp */; };
 		E7A35D341A65D49300C9E3EF /* scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7A35D261A65D49300C9E3EF /* scene.cpp */; };
 		E7A35D351A65D49300C9E3EF /* voxel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7A35D291A65D49300C9E3EF /* voxel.cpp */; };
+		E7A35D381A65D9BA00C9E3EF /* buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7A35D361A65D9BA00C9E3EF /* buffer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -437,6 +438,8 @@
 		E7A35D281A65D49300C9E3EF /* toybox.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = toybox.hpp; sourceTree = "<group>"; };
 		E7A35D291A65D49300C9E3EF /* voxel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = voxel.cpp; sourceTree = "<group>"; };
 		E7A35D2A1A65D49300C9E3EF /* voxel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = voxel.hpp; sourceTree = "<group>"; };
+		E7A35D361A65D9BA00C9E3EF /* buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = buffer.cpp; sourceTree = "<group>"; };
+		E7A35D371A65D9BA00C9E3EF /* buffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = buffer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -914,6 +917,8 @@
 		E7A35D0A1A65D49300C9E3EF /* graphics */ = {
 			isa = PBXGroup;
 			children = (
+				E7A35D361A65D9BA00C9E3EF /* buffer.cpp */,
+				E7A35D371A65D9BA00C9E3EF /* buffer.hpp */,
 				E7A35D0B1A65D49300C9E3EF /* colortools.cpp */,
 				E7A35D0C1A65D49300C9E3EF /* colortools.hpp */,
 				E7A35D0D1A65D49300C9E3EF /* graphics.hpp */,
@@ -1065,6 +1070,7 @@
 				E72020EB1A5EEADD00839B89 /* loslib.c in Sources */,
 				E72020E21A5EEADD00839B89 /* lgc.c in Sources */,
 				E72020E61A5EEADD00839B89 /* lmathlib.c in Sources */,
+				E7A35D381A65D9BA00C9E3EF /* buffer.cpp in Sources */,
 				E72020F11A5EEADD00839B89 /* ltablib.c in Sources */,
 				E72020DB1A5EEADD00839B89 /* lcorolib.c in Sources */,
 				E72020D81A5EEADD00839B89 /* lbaselib.c in Sources */,
