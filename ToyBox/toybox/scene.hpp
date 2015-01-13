@@ -8,7 +8,7 @@
 #ifndef TOYBOX_SCENE_hpp
 #define TOYBOX_SCENE_hpp
 
-#include <core>
+#include <core.hpp>
 
 namespace toybox {
     class Chunk;

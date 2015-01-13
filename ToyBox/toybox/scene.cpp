@@ -1,6 +1,6 @@
 
-#include "scene"
-#include "chunk"
+#include "scene.hpp"
+#include "chunk.hpp"
 
 namespace toybox {
     Scene::~Scene()

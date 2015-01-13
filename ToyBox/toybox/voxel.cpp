@@ -1,5 +1,5 @@
 
-#include "voxel"
+#include "voxel.hpp"
 
 namespace toybox {
     Voxel::Voxel()

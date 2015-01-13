@@ -9,8 +9,8 @@
 #ifndef TOYBOX_CHUNK_hpp
 #define TOYBOX_CHUNK_hpp
 
-#include <core>
-#include "voxel"
+#include <core.hpp>
+#include "voxel.hpp"
 
 namespace toybox {
     class Chunk

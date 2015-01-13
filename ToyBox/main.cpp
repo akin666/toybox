@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include <core>
+#include <core.hpp>
 
 // the blody easylogging requires this..
 // (I hate when random libraries pollute my codebase with their nonsense)

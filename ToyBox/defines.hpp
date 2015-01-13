@@ -1,5 +1,5 @@
 /*
- * defines.h
+ * defines.hpp
  *
  *  Created on: 22.5.2013
  *      Author: akin

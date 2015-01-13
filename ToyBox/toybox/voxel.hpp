@@ -8,8 +8,8 @@
 #ifndef TOYBOX_VOXEL_hpp
 #define TOYBOX_VOXEL_hpp
 
-#include <core>
-#include "core"
+#include <core.hpp>
+#include "core.hpp"
 
 namespace toybox {
     class Voxel

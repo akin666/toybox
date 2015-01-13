@@ -1,5 +1,5 @@
 
-#include "chunk"
+#include "chunk.hpp"
 
 namespace toybox {
     Chunk::Chunk( const Chunk& other )
