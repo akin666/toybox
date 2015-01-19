@@ -16,7 +16,7 @@ INITIALIZE_EASYLOGGINGPP
 int main(int argc, const char * argv[])
 {
     // configure logging
-    el::Loggers::reconfigureAllLoggers(el::ConfigurationType::Format, "%datetime@%fbase:%line > %msg");
+    el::Loggers::reconfigureAllLoggers(el::ConfigurationType::Format, "%datetime - %level@%fbase:%line: %msg");
     
     // insert code here...
     LOG(INFO) << "Hello logging";
